@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: kk lkk, kk, LIC=JDAJJ-ULU8T-PESH1-CJ6EY-0VQYL-6E1C1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.15.0
+Toolchain Path:  E:\software.engineer\keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARM.DLL V5.15.0
+Dialog DLL:      DARMP.DLL V1.51
+Target DLL:      UL2ARM.DLL V1.74.6.0
+Dialog DLL:      TARMP.DLL V1.51
+ 
+<h2>Project:</h2>
+D:\my files\course\term7\micro az\project\12a-GLCD_Graphics\12a-GLCD_Graphics.uvproj
+Project File Date:  02/09/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'E:\software.engineer\keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+main.c(21): warning:  #223-D: function "GLCD_DrawVertLine" declared implicitly
+        GLCD_DrawVertLine(0,0,64,1);
+main.c(43): warning:  #61-D: integer operation result is out of range
+                while((
+D0DR&1<<31)==0); // wait for conversion to complete
+main.c(43): warning:  #68-D: integer conversion resulted in a change of sign
+                while((
+D0DR&1<<31)==0); // wait for conversion to complete
+main.c: 3 warnings, 0 errors
+compiling glcd.c...
+glcd.c(901): warning:  #550-D: variable "var_floatNum_f32" was set but never used
+      double var_floatNum_f32;
+glcd.c: 1 warning, 0 errors
+compiling gpio.c...
+linking...
+Program Size: Code=4372 RO-data=16 RW-data=0 ZI-data=2304  
+FromELF: creating hex file...
+".\Objects\12a-GLCD_Graphics.axf" - 0 Error(s), 4 Warning(s).
+</pre>
+</body>
+</html>

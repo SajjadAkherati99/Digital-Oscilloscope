@@ -1,0 +1,16 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+prevLet                                                           0x0260       2
+stat                                                              0x0262       1
+prevX                                                             0x0263       1
+prevY                                                             0x0264       1
+_seed                                                             0x0265       4
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------

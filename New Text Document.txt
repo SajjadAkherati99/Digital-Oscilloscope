@@ -1,0 +1,41 @@
+while(1){
+			AD0CR|=1<<24; // start conversion now
+			while((AD0DR&1<<31)==0); // wait for conversion to complete
+			value = (AD0DR&0x0000ffc0)>>6;// samples datas			
+			if ((((save[y]+1)%16 != 0) && ((y+1)%16 != 0)) && (save[y] != 0) && (y != 0)){
+				if (y>0){
+					if(fabs(save[y]-x) > 10){
+						z = save[y];
+						if (x > save[y]){
+							z = x;
+							x = save[y];
+						}
+						for (xx = x; xx <= z; xx++){
+							for (yy = y-1; yy<=y; yy++){
+								if ((((xx+1)%16 != 0) && ((yy+1)%16 != 0)) && (xx != 0) && (yy != 0))
+									GLCD_SetDot(yy, xx, 0);
+							}
+						}
+					}
+				}
+				GLCD_SetDot(y, save[y], 0);
+			}
+			x = save[y];	
+			save[y] = 31 + ((511-value)/dut);
+			GLCD_SetDot(y, save[y], 1);
+			if (y>0){
+				if(fabs(save[y]-save[y-1]) > 10)
+					GLCD_DrawLine(y-1, save[y-1], y, save[y], 1);
+			}
+			if (y == 127 )
+				y = 0;
+			else
+				y++;
+			if ((sign == 0) && (IO0PIN&0x00000001) == 0x00000001){
+				dut = dut - 2;
+				sign = 1;
+			}
+			if ((sign == 1) && (IO0PIN&0x00000001) == 0x00000000){
+				sign = 0;
+			}
+		}

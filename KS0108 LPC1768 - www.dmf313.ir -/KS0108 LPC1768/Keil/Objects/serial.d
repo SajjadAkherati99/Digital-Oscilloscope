@@ -1,0 +1,12 @@
+.\objects\serial.o: serial.c
+.\objects\serial.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\objects\serial.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\objects\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\serial.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\objects\serial.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\objects\serial.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\objects\serial.o: serial.h
+.\objects\serial.o: uart023Define.h
+.\objects\serial.o: rit.h
+.\objects\serial.o: ritDefine.h
+.\objects\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h

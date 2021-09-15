@@ -1,0 +1,27 @@
+Dependencies for Project '12a-GLCD_Graphics', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x58EB08E6)(--cpu ARM7TDMI -g --apcs=interwork -I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\Philips--pd "__UVISION_VERSION SETA 515"--list .\listings\startup.lst --xref -o .\objects\startup.o --depend .\objects\startup.d)
+F (.\main.c)(0x60237AD6)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections -I..\00-libfiles-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\Philips-D__UVISION_VERSION="515"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (glcd.h)(0x58EB08E6)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdarg.h)(0x54C28500)
+I (stdutils.h)(0x58EB08E6)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdint.h)(0x54C28500)
+I (delay.h)(0x58EB08E6)
+I (gpio.h)(0x60237DB7)
+I (E:\software.engineer\keil\ARM\Inc\Philips\LPC213x.h)(0x53466772)
+I (E:\software.engineer\keil\ARM\ARMCC\include\math.h)(0x54C28500)
+F (.\delay.c)(0x602306BC)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections -I..\00-libfiles-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\Philips-D__UVISION_VERSION="515"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (E:\software.engineer\keil\ARM\Inc\Philips\lpc213x.h)(0x53466772)
+I (delay.h)(0x58EB08E6)
+F (.\glcd.c)(0x6022A9F3)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections -I..\00-libfiles-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\Philips-D__UVISION_VERSION="515"-o .\objects\glcd.o --omf_browse .\objects\glcd.crf --depend .\objects\glcd.d)
+I (glcd.h)(0x58EB08E6)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdarg.h)(0x54C28500)
+I (stdutils.h)(0x58EB08E6)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdint.h)(0x54C28500)
+I (delay.h)(0x58EB08E6)
+I (gpio.h)(0x60237DB7)
+F (.\gpio.c)(0x602306B2)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork --split_sections -I..\00-libfiles-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\Philips-D__UVISION_VERSION="515"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (E:\software.engineer\keil\ARM\Inc\Philips\lpc213x.h)(0x53466772)
+I (stdutils.h)(0x58EB08E6)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdint.h)(0x54C28500)
+I (gpio.h)(0x60237DB7)
+F (.\glcd.h)(0x58EB08E6)()

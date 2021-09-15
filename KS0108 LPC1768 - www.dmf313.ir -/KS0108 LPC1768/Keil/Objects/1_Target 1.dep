@@ -1,0 +1,37 @@
+Dependencies for Project '1', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x53465A62)(--cpu Cortex-M3 -g --apcs=interwork -I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx--pd "__UVISION_VERSION SETA 515"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\startup_lpc17xx.o --depend .\objects\startup_lpc17xx.d)
+F (.\system_LPC17xx.c)(0x58A48B7A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="515"-o .\objects\system_lpc17xx.o --omf_browse .\objects\system_lpc17xx.crf --depend .\objects\system_lpc17xx.d)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdint.h)(0x54C28500)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x534668B2)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cm3.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmInstr.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmFunc.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x534668B2)
+F (.\main.c)(0x58A57DC9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="515"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x534668B2)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cm3.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdint.h)(0x54C28500)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmInstr.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmFunc.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x534668B2)
+I (glcd.h)(0x58A54D68)
+I (delay.h)(0x584BD832)
+I (gpio.h)(0x587BB760)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdlib.h)(0x54C28500)
+F (.\gpio.c)(0x58A49438)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="515"-o .\objects\gpio.o --omf_browse .\objects\gpio.crf --depend .\objects\gpio.d)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x534668B2)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cm3.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdint.h)(0x54C28500)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmInstr.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmFunc.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x534668B2)
+I (gpio.h)(0x587BB760)
+F (.\delay.c)(0x58A46CC4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections-I E:\software.engineer\keil\ARM\RV31\INC-I E:\software.engineer\keil\ARM\CMSIS\Include-I E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx-D__UVISION_VERSION="515"-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (delay.h)(0x584BD832)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x534668B2)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cm3.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\ARMCC\include\stdint.h)(0x54C28500)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmInstr.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\CMSIS\Include\core_cmFunc.h)(0x53466AAC)
+I (E:\software.engineer\keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x534668B2)
+F (.\glcd.h)(0x58A54D68)()
